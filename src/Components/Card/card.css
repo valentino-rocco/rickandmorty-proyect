@@ -1,0 +1,16 @@
+.card{
+    width: 18rem;
+    background-color: #223142;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+}
+.card-title{
+    text-align: center;
+    color:#6eccaf;
+}
+.btn{
+    align-self: flex-end;
+    background-color: #6eccaf;
+}

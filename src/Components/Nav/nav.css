@@ -1,0 +1,17 @@
+
+.navbar{
+    background-color: #344d67;
+    color: #6eccaf;
+    
+}
+li{
+    list-style: none;
+    display: inline-block;
+    
+}
+ul{
+    display:inline-block;
+}
+h1{
+    display: inline-block;
+}
