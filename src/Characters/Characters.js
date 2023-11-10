@@ -88,7 +88,7 @@ function Characters(){
             <section className="row section-filters py-5">
                 <div className="filters-area d-flex m-2 align-items-center">
                     <h2>filters</h2>
-                    <a class="btn btn-filters" data-bs-toggle="collapse" href="#collapseFilters" role="button" aria-expanded="false" aria-controls="collapseFilters">
+                    <a className="btn btn-filters" data-bs-toggle="collapse" href="#collapseFilters" role="button" aria-expanded="false" aria-controls="collapseFilters">
                         <i className="bi bi-sliders"></i>
                     </a>
                 </div>
