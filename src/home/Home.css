@@ -12,11 +12,11 @@ body{
     width: 600px;
     color: #344d67;
 }
-.btn{
+.b-home{
     background-color: #344d67  !important;
     color: #6eccaf !important;
 }
-.btn:hover{
+.b-home:hover{
     background-color: #6eccaf !important;
     color: #344d67 !important;
 }

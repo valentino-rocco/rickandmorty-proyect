@@ -13,10 +13,10 @@ function Nav(){
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav ">
                         <li className="nav-item m-2">
-                            <Link to="/Characters" className="btn">Character</Link>
+                            <Link to="/Characters" className="b-home btn">Character</Link>
                         </li>
                         <li className="nav-item m-2">
-                            <Link to="/Contact" className="btn">Contact</Link>
+                            <Link to="/Contact" className="b-home btn">Contact</Link>
                         </li>
                     </ul>
                 </div>

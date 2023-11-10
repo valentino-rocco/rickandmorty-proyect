@@ -13,8 +13,8 @@ function Home() {
             <h3 className="row justify-content-center">Lets go!</h3>
             <nav className="row align-items-center">
                 <ul className="nav nav-pills justify-content-center p-3">
-                    <li className="nav-item"><Link to="/Characters" className="btn bg-success m-2 p-3">Characters</Link></li>
-                    <li className="nav-item"><Link to="Contact" className="btn bg-success m-2 p-3">Contact</Link></li>
+                    <li className="nav-item"><Link to="/Characters" className="b-home btn bg-success m-2 p-3">Characters</Link></li>
+                    <li className="nav-item"><Link to="Contact" className="b-home btn bg-success m-2 p-3">Contact</Link></li>
                 </ul>
             </nav>
         </div>
