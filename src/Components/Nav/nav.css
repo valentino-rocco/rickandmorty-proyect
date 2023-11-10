@@ -4,6 +4,13 @@
     color: #6eccaf;
     
 }
+header{
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #344d67;
+}
 li{
     list-style: none;
     display: inline-block;
@@ -12,6 +19,9 @@ li{
 ul{
     display:inline-block;
 }
-h1{
+.h1nav{
     display: inline-block;
+    color:#6eccaf;
+    font-size:larger;
+    padding: 40px 80px !important;
 }

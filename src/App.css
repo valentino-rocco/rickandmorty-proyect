@@ -1,5 +1,6 @@
 body{
     background-image: url(/ricky-morty/public/rickymorty.5175821606017bce3b00.jpeg);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
 }

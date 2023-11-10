@@ -84,16 +84,22 @@ function Characters(){
     return(
         <div>
             <Nav/>
-            <section>
-            <h2>filters</h2>
-            <form className="d-flex bg-primary">
-            {filtros.map((filtros)=>{
-                return <Filter key={filtros.nombre} nombrefiltro={filtros.filtro} idfiltro={filtros.nombre} handlerChange={aplicarfiltros}/>
-            })}
-            </form>
+            <main className="container-fluid">
+            <section className="row section-filters py-5">
+                <div className="filters-area d-flex m-2 align-items-center">
+                    <h2>filters</h2>
+                    <a class="btn btn-filters" data-bs-toggle="collapse" href="#collapseFilters" role="button" aria-expanded="false" aria-controls="collapseFilters">
+                        <i className="bi bi-sliders"></i>
+                    </a>
+                </div>
+                <div id="collapseFilters" className="filters justify-content-between flex-wrap collapse">
+                    {filtros.map((filtros)=>{
+                        return <Filter key={filtros.nombre} nombrefiltro={filtros.filtro} idfiltro={filtros.nombre} handlerChange={aplicarfiltros}/>
+                    })}
+                </div>
             </section>
-            <section className="section-cards">
-            
+
+        <section className="row section-cards">   
             {personajes.length>0?
                 personajes.map((personaje)=>{
                     return <Card key={personaje.id} data={personaje}/>
@@ -104,8 +110,8 @@ function Characters(){
                 </div>
             }
             
-            
-            </section>
+        </section>
+        </main>
         </div>
     )
 

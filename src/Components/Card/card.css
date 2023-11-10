@@ -5,6 +5,10 @@
     padding: 10px;
     margin: 20px;
     display: inline-block;
+
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
 }
 .card-title{
     text-align: center;

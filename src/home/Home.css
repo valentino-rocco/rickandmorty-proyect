@@ -5,3 +5,18 @@ body{
 .column{
     color: blueviolet;
 }
+
+.caja{
+    background-color: #ffffffe6;
+    height: 600px;
+    width: 600px;
+    color: #344d67;
+}
+.btn{
+    background-color: #344d67  !important;
+    color: #6eccaf !important;
+}
+.btn:hover{
+    background-color: #6eccaf !important;
+    color: #344d67 !important;
+}

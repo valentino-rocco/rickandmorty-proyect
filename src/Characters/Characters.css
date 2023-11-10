@@ -6,3 +6,15 @@
     background-color: #6eccaf;
     color: #344d67;
 }
+.filters-area{
+    background-color: #344d67;
+    border-radius: 8px;
+    justify-content: space-around;
+    padding: 15px;
+    width: 90%;
+    color:#6eccaf;
+}
+.section-filters{
+    align-items: center;
+    flex-direction: column;
+}

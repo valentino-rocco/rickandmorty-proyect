@@ -4,3 +4,8 @@
 .form-check-input{
     background-color: #b1f0dc;
 }
+.form-check{
+    background-color: #344d67 !important;
+    border-radius: 8px !important;
+    color: #6eccaf !important;
+}
