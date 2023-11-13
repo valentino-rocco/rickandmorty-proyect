@@ -99,7 +99,7 @@ function Characters(){
                 </div>
             </section>
 
-        <section className="row section-cards">   
+        <section className="row justify-content-center align-items-center">   
             {personajes.length>0?
                 personajes.map((personaje)=>{
                     return <Card key={personaje.id} data={personaje}/>
