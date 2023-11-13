@@ -92,7 +92,7 @@ function Characters(){
                         <i className="bi bi-sliders"></i>
                     </a>
                 </div>
-                <div id="collapseFilters" className="filters justify-content-between flex-wrap collapse">
+                <div id="collapseFilters" className="filtros-central">
                     {filtros.map((filtros)=>{
                         return <Filter key={filtros.nombre} nombrefiltro={filtros.filtro} idfiltro={filtros.nombre} handlerChange={aplicarfiltros}/>
                     })}
